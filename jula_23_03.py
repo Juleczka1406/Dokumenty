@@ -55,6 +55,8 @@ class WsbPlCheck(unittest.TestCase):
         for result in results:
             print(result.text + "/n")
 
+        self.assertEqual(3, len(results))
+
     def tearDown(self):
         self.driver.quit()
 

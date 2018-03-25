@@ -1,4 +1,7 @@
 class Czlowiek():
+    def __init__(self, imie):
+        print("Wywolal się init")
+        self.imie = imie
     gatunek = "human"
 
 #Teraz tworze instancje klasy
